@@ -19,6 +19,9 @@ class _MyAppState extends State<MyApp> {
         'https://node-02.zeno.fm/20g8vnc5mp8uv?rj-ttl=5&rj-tok=AAABfgb0o0UA0lir-FnNka58mA');
     if (result == 1) {
       // success
+      print('success');
+    } else {
+      print('failed');
     }
   }
 
