@@ -38,6 +38,7 @@ class _MyAppState extends State<MyApp> {
           children: [
             GestureDetector(
               onTap: () {
+                audioPlayer.pause();
                 play();
               },
               child: Container(
